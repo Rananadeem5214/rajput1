@@ -279,8 +279,8 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:𝐑𝐀𝐉𝐏𝐔𝐓 𝐇𝐀𝐂𝐊𝐄𝐑
-        time.sleep(0.05)
+	os.system("clear") #Dev:Rana
+        time.sleep(0.0)
 	print logo
 	print "\033[1;96m•◈•───────────────•◈•\033[1;92𝐑𝐀𝐉𝐏𝐔𝐇𝐀𝐂𝐊𝐄𝐑\033[1;96m•◈•───────────────•◈•"
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Name \033[1;91m: \033[1;97m"+Name+"\033[1;97m               "
@@ -482,3 +482,5 @@ def pilih_super():
 
 if __name__ == '__main__':
 	login()
+	
+	
